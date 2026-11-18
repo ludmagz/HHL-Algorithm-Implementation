@@ -1,6 +1,6 @@
 # HHL Algorithm Implementation
 
-This repository contains an implementation of the Harrow-Hassidim-Lloyd (HHL) quantum algorithm using the Qiskit library. The code was developed to solve linear systems of equations of the form $Ax = b$ generically, without relying on hardcoded matrices.
+This repository contains an implementation of the Harrow-Hassidim-Lloyd (HHL) quantum algorithm using the Qiskit library. The code was developed to solve linear systems of equations of the form $Ax = b$ generically, without relying on hardcoded matrices. It serves only for educative purposes due to the fact that it uses NumPy to calculate the eigenvalues, destroying the proposed quantum exponential speedup.  
 
 ## Main Features
 - **Dynamic Register Sizing:** The number of target qubits (`nB`) is automatically allocated based on the dimension of the input vector $b$.
